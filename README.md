@@ -31,7 +31,7 @@ kubectl get vm,vmi
 4) Podemos modificar esse campo da mesma forma que fazemos com outros recursos do Kubernetes. E vemos que o KubeVirt já começa a criar nossa instância:
 
 ```bash
-kubectl patch virtualmachine cirrus-vm-1 --type merge -p '{"spec":{"running":true}'
+kubectl patch virtualmachine cirrus-vm-1 --type merge -p '{"spec":{"running":true}}'
 
 kubectl get vm,vmi
 ```
