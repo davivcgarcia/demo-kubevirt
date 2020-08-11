@@ -1,0 +1,16 @@
+apiVersion: cdi.kubevirt.io/v1alpha1
+kind: DataVolume
+metadata:
+  name: fedora-cloud-base-32
+  namespace: default
+spec:
+  source:
+    http:
+      url: "http://local-repo/Fedora-Cloud-Base-32-1.6.x86_64.raw.xz"
+      #url: "http://fedora.c3sl.ufpr.br/linux/releases/32/Cloud/x86_64/images/Fedora-Cloud-Base-32-1.6.x86_64.raw.xz"
+  pvc:
+    accessModes:
+      - ReadWriteOnce
+    resources:
+      requests:
+        storage: 5Gi
