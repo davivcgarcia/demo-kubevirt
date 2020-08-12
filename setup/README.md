@@ -9,6 +9,13 @@ Espera-se que os seguintes componentes já estejam devidamente instalados e conf
 - [Kubernetes CLI (kubectl) v1.18+](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 - [Kubernetes Krew v0.3.4+](https://krew.sigs.k8s.io/docs/user-guide/setup/install/)
 
+Na apresentação usei um Lenovo Thinkpad X1 Carbon, rodando Fedora Workstation 32, mas a demonstração funciona bem com máquinas com:
+
+- **SO:** Ubuntu/Fedora/Debian/CentOS/RHEL
+- **CPU:** 2Ghz+ c/ 2 cores
+- **RAM:** 8GB
+- **HDD:** 20GB livres.
+
 ## Roteiro de Preparo
 
 **0)** Tenha certeza que está no diretório correto:
