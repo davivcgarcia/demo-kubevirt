@@ -2,7 +2,7 @@
 
 ## Sobre
 
-Esse repositório contém os artefatos, apresentação e demonstração, usados na apresentação **Virtualização no Kubernetes com KubeVirt**, feita no **[[Online] Cloud Native São Paulo - Meetup #16](https://www.meetup.com/Cloud-Native-Sao-Paulo/events/272334689/)**.
+Esse repositório contém os artefatos, slides e demonstração, usados na apresentação **Virtualização no Kubernetes com KubeVirt**, feita no **[[Online] Cloud Native São Paulo - Meetup #16](https://www.meetup.com/Cloud-Native-Sao-Paulo/events/272334689/)**.
 
 Gravação disponível [aqui](https://www.youtube.com/watch?v=nvnJZ_Qb7Fk).
 
